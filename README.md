@@ -1,25 +1,26 @@
-# Blog API
+# 🌟 Blog API
 
 ## Descrição
 
-A Blog API é uma aplicação backend desenvolvida em TypeScript utilizando Express e TypeORM. Ela permite a criação, leitura, atualização e exclusão (CRUD) de posts de blog, além de gerenciar comentários.
+A **Blog API** é uma aplicação backend desenvolvida em **TypeScript** utilizando **Express** e **TypeORM**. Permite a criação, leitura, atualização e exclusão (CRUD) de posts de blog, além de gerenciar comentários.
 
 ## Tecnologias Utilizadas
 
-- **Node.js**
-- **Express**
-- **TypeScript**
-- **TypeORM**
-- **PostgreSQL/MySQL** (dependendo do seu banco de dados)
-- **Express Validator** para validação de dados
+| Tecnologia       | Logo                                      |
+|------------------|-------------------------------------------|
+| Node.js          | ![Node.js](https://nodejs.org/static/images/logo.svg) |
+| Express          | ![Express](https://expressjs.com/images/express-facebook-share.png) |
+| TypeScript       | ![TypeScript](https://raw.githubusercontent.com/microsoft/TypeScript/main/logo.svg) |
+| TypeORM          | ![TypeORM](https://typeorm.io/img/typeorm-logo.png) |
+| PostgreSQL/MySQL | ![PostgreSQL](https://www.postgresql.org/media/img/about/press/elephant.png) ![MySQL](https://www.mysql.com/common/logos/logo-mysql-170x115.png) |
 
 ## Funcionalidades
 
-- **GET /posts**: Retorna uma lista de todos os posts.
-- **POST /posts**: Cria um novo post.
-- **PUT /posts/:id**: Atualiza um post existente.
-- **DELETE /posts/:id**: Deleta um post.
-- **GET /posts/:id**: Retorna um post específico.
+- **GET /posts**: Retorna uma lista de todos os posts. 📄
+- **POST /posts**: Cria um novo post. 📝
+- **PUT /posts/:id**: Atualiza um post existente. ✏️
+- **DELETE /posts/:id**: Deleta um post. 🗑️
+- **GET /posts/:id**: Retorna um post específico. 🔍
 
 ## Instalação
 
