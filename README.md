@@ -28,3 +28,42 @@ A Blog API é uma aplicação backend desenvolvida em TypeScript utilizando Expr
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
+Instale as dependências:
+
+bash
+Copiar código
+npm install
+Configure seu banco de dados no arquivo de configuração (exemplo: ormconfig.json ou similar).
+
+Execute a aplicação:
+
+bash
+Copiar código
+npm start
+Acesse a API em http://localhost:3000.
+
+Uso com Postman
+Para listar todos os posts, faça um GET em http://localhost:3000/posts.
+
+Para criar um novo post, faça um POST em http://localhost:3000/posts com o seguinte corpo JSON:
+
+json
+Copiar código
+{
+  "title": "Título do Post",
+  "content": "Conteúdo do Post"
+}
+Para atualizar um post, faça um PUT em http://localhost:3000/posts/:id com o corpo JSON correspondente.
+
+Para deletar um post, faça um DELETE em http://localhost:3000/posts/:id.
+
+Contribuição
+Sinta-se à vontade para contribuir com melhorias, correções de bugs e novas funcionalidades. Abra um pull request ou crie uma issue para discutir mudanças.
+
+Licença
+Este projeto está licenciado sob a MIT License.
+
+arduino
+Copiar código
+
+Sinta-se à vontade para personalizar o conteúdo conforme necessário!
