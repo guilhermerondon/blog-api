@@ -8,7 +8,7 @@ A **Blog API** é uma aplicação backend desenvolvida em **TypeScript** utiliza
 
 | Tecnologia       | Logo                                      |
 |------------------|-------------------------------------------|
-| Node.js          | ![Node.js](https://nodejs.org/static/images/logo.svg) |
+| Node.js          | ![Node.js](https://raw.githubusercontent.com/nodejs/node/master/doc/logos/nodejs-new-white.svg) |
 | Express          | ![Express](https://expressjs.com/images/express-facebook-share.png) |
 | TypeScript       | ![TypeScript](https://raw.githubusercontent.com/microsoft/TypeScript/main/logo.svg) |
 | TypeORM          | ![TypeORM](https://typeorm.io/img/typeorm-logo.png) |
