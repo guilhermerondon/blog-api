@@ -28,7 +28,7 @@ dataSource.initialize()
     console.log('Database connected');
 
     // rotas
-    app.use('/posts', postRoutes(dataSource)); // Passa o dataSource para as rotas de posts
+    app.use('/posts', postRoutes(dataSource));
     app.use('/comments', commentRoutes(dataSource)); // Passa o dataSource para as rotas de comentários
 
     // Iniciando o servidor
