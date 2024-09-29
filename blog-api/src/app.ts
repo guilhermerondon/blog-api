@@ -29,7 +29,7 @@ dataSource.initialize()
 
     // rotas
     app.use('/posts', postRoutes(dataSource));
-    app.use('/comments', commentRoutes(dataSource)); // Passa o dataSource para as rotas de comentários
+    app.use('/comments', commentRoutes(dataSource));
 
     // Iniciando o servidor
     app.listen(3000, () => {
