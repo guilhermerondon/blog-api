@@ -17,7 +17,5 @@ export default (dataSource: DataSource) => {
     }
   });
 
-  // Adicione outras rotas conforme necessário (por exemplo, para listar comentários, etc.)
-
   return router;
 };
